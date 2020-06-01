@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "DeepEye",
+    "slug": "drapp-1",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "android": {
+      "package": "com.cils.deepeye",
+      "versionCode": 3
+    },
+    "ios": {
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cils.deepeye"
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": "",
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "DeepEye",
+  "name": "DeepEye"
+}
